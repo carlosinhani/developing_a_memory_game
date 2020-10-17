@@ -3,7 +3,6 @@ let hasFlippedCard = false;
 let firstCard, secondCard;
 let lockBord = false
 
-
 function flipCard() {
     if(lockBord) return;
     if(this === firstCard) return;
